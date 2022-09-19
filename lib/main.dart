@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:desafio/pages/HomePage.dart';
+import 'package:desafio/pages/home_page/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

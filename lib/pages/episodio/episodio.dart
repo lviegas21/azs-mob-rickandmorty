@@ -1,11 +1,11 @@
 // ignore_for_file: prefer_const_constructors, non_constant_identifier_names, prefer_const_literals_to_create_immutables, dead_code, must_be_immutable, use_key_in_widget_constructors, unused_local_variable, avoid_print, prefer_is_empty, file_names, unused_import
 
-import 'package:desafio/model/modepca.dart';
-import 'package:desafio/repositorio/Api.dart';
-import 'package:desafio/pages/Descricao.dart';
-import 'package:desafio/providers/bd_episodio.dart';
-import 'package:desafio/model/episodio_model.dart';
-import 'package:desafio/repositorio/ApiDesc.dart';
+import 'package:desafio/model/model_listando_personagens/modepca.dart';
+import 'package:desafio/repositorio/api_episodios/api_episodios.dart';
+import 'package:desafio/pages/descricao_episodio/descricao_episodio.dart';
+import 'package:desafio/providers/banco_de_dados_episodio/banco_de_dados_episodio.dart';
+import 'package:desafio/model/model_episodios/episodio_model.dart';
+import 'package:desafio/repositorio/api_episodios/api_listando_todos_episodios.dart';
 import 'package:flutter/material.dart';
 
 class Episodio extends StatefulWidget {

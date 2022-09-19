@@ -1,8 +1,8 @@
-// ignore_for_file: file_names, avoid_unnecessary_containers, prefer_const_constructors, unused_import, dead_code, avoid_print
+// ignore_for_file: file_names, avoid_unnecessary_containers, prefer_const_constructors, unused_import, dead_code, avoid_print, must_be_immutable, use_key_in_widget_constructors
 
-import 'package:desafio/providers/bd_episodio.dart';
-import 'package:desafio/model/bd_model.dart';
-import 'package:desafio/model/episodio_model.dart';
+import 'package:desafio/providers/banco_de_dados_episodio/banco_de_dados_episodio.dart';
+import 'package:desafio/model/banco_model/banco_model.dart';
+import 'package:desafio/model/model_episodios/episodio_model.dart';
 import 'package:flutter/material.dart';
 
 class Vistos extends StatefulWidget {

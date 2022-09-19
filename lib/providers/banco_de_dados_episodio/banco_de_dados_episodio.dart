@@ -1,7 +1,7 @@
 // ignore_for_file: camel_case_types, unused_local_variable
 
-import 'package:desafio/model/bd_model.dart';
-import 'package:desafio/model/episodio_model.dart';
+import 'package:desafio/model/banco_model/banco_model.dart';
+import 'package:desafio/model/model_episodios/episodio_model.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 

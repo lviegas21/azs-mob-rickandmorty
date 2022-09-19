@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, must_be_immutable, use_key_in_widget_constructors, prefer_const_constructors, dead_code, avoid_unnecessary_containers, unused_local_variable, prefer_const_literals_to_create_immutables
 
-import 'package:desafio/repositorio/ApiDesc.dart';
-import 'package:desafio/model/modepca.dart';
+import 'package:desafio/repositorio/api_episodios/api_listando_todos_episodios.dart';
+import 'package:desafio/model/model_listando_personagens/modepca.dart';
 import 'package:flutter/material.dart';
 
 class Descricao extends StatefulWidget {

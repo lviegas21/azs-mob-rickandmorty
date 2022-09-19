@@ -3,11 +3,11 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:desafio/pages/Favoritos.dart';
-import 'package:desafio/pages/Pesquisa.dart';
-import 'package:desafio/pages/Vistos.dart';
-import 'package:desafio/pages/Episodios.dart';
-import 'package:desafio/model/episodio_model.dart';
+import 'package:desafio/pages/episodio_favorito/episodio_favorito.dart';
+import 'package:desafio/pages/pesquisar_episodio/pesquisar_episodio.dart';
+import 'package:desafio/pages/episodios_vistos/episodios_vistos.dart';
+import 'package:desafio/pages/episodio/episodio.dart';
+import 'package:desafio/model/model_episodios/episodio_model.dart';
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:http/http.dart' as http;
