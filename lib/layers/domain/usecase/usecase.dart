@@ -1,1 +1,1 @@
-export './epiodio_usecase.dart';
+export 'episodio_usecase.dart';
