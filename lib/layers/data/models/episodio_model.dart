@@ -6,9 +6,9 @@ class EpisodioModel {
   final String? episode;
 
   EpisodioModel({
-    this.name,
-    this.air_date,
-    this.episode,
+    required this.name,
+    required this.air_date,
+    required this.episode,
   });
 
   factory EpisodioModel.fromJson(Map json) {
