@@ -1,12 +1,10 @@
 // ignore_for_file: body_might_complete_normally_nullable, unnecessary_import
 
-import 'package:desafio/layers/data/http/http_client.dart';
-import 'package:desafio/layers/data/models/episodio_model.dart';
-import 'package:desafio/layers/domain/entities/entities.dart';
-import 'package:desafio/layers/domain/helpers/domain_error.dart';
-import 'package:desafio/layers/domain/usecase/usecase.dart';
-
+import '../../domain/entities/entities.dart';
+import '../../domain/helpers/helpers.dart';
+import '../../domain/usecase/usecase.dart';
 import '../http/http.dart';
+import '../models/models.dart';
 
 class RemoteEpisodioUsecase implements EpisodioUsecase {
   final HttpClient httpClient;
